@@ -9,6 +9,7 @@ import Section3 from '@/components/Section3'
 import Section4 from '@/components/Section4'
 import Image from 'next/image'
 import {red, purple,green, picgreen, picorange,picpurple,picred} from '@/components/Data'
+import ContactButton from '@/components/ContactButton'
 
 export default function Home() {
   return (
@@ -17,18 +18,21 @@ export default function Home() {
    {/* red area*/} 
     <Hero item={picred}/>
     <Hero2 item={red}/>
+    <ContactButton/>
     {/**purple area */}
     <Hero item={picpurple}/>
 
     {/* <Section3/> */}
     {/* <Section4/> */}
     <Hero2 item={purple}/>
+    <ContactButton/>
 {/* /* green area*/ }
 <Hero item={picgreen}/>
 
     {/* <Greenhero/> */}
     {/* <GreenHero2/> */}
     <Hero2 item={green}/>
+    <ContactButton/>
 {/* /**orange area */ }
 <Hero item={picorange}/>
 

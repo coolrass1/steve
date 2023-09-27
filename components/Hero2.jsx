@@ -6,7 +6,7 @@ const Hero2 = ({item}) => {
     return (
         <section className='mt-3 mb-7 grid gap-7 grid-cols-1 lg:grid-cols-2'>
             <div className="order-2 lg:order-1">
-                <div className=' w-full h-full'>
+                <div className=' w-full h-full px-3'>
                     <Image
                         src="/images/GarnetRED1.jpg"
                         alt="Garnet"
@@ -14,7 +14,7 @@ const Hero2 = ({item}) => {
                         height={600}
                         priority
                         objectFit='cover'
-                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        style={{ width: "100%", minHeight:"700px", objectFit: "cover" }}
 
                     />
                 </div>
