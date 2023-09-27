@@ -8,18 +8,31 @@ import Orangehero from '@/components/Orangehero'
 import Section3 from '@/components/Section3'
 import Section4 from '@/components/Section4'
 import Image from 'next/image'
+import {red, purple,green, picgreen, picorange,picpurple,picred} from '@/components/Data'
 
 export default function Home() {
   return (
-   <main className='md:max-w-screen-md md:mx-auto lg:max-w-screen-lg   xl:max-w-screen-xl 2xl:max-w-screen-xl px-7'>
+   <main className='md:max-w-screen-md md:mx-auto lg:max-w-screen-lg   xl:max-w-screen-xl 2xl:max-w-screen-xl lg:px-7'>
     <Heading/>
-    <Hero/>
-    <Hero2/>
-    <Section3/>
-    <Section4/>
-    <Greenhero/>
-    <GreenHero2/>
-    <Orangehero/>
+   {/* red area*/} 
+    <Hero item={picred}/>
+    <Hero2 item={red}/>
+    {/**purple area */}
+    <Hero item={picpurple}/>
+
+    {/* <Section3/> */}
+    {/* <Section4/> */}
+    <Hero2 item={purple}/>
+{/* /* green area*/ }
+<Hero item={picgreen}/>
+
+    {/* <Greenhero/> */}
+    {/* <GreenHero2/> */}
+    <Hero2 item={green}/>
+{/* /**orange area */ }
+<Hero item={picorange}/>
+
+    {/* <Orangehero/> */}
     <Footer/>
     </main>
   )
