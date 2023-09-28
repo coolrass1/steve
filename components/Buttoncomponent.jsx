@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Buttoncomponent = () => {
+const Buttoncomponent = ({text}) => {
   return (
     <button className='flex justify-center items-center gap-1'>
-        <span>Join our list</span>
+        <span>{text}</span>
       <Image
         src="/images/button.svg"
         alt="Garnet"

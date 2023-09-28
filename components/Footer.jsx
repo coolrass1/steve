@@ -16,7 +16,7 @@ const Footer = () => {
             type="text"
             placeholder="Please enter your email"
           />
-          <Buttoncomponent/>
+          <Buttoncomponent text="Join our list"/>
         </div>
         <div className="px-7 flex flex-col gap-7 lg:flex-row lg:gap-14">
           <div className="flex flex-col gap-3 text-sm ">
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </main>
-      <div className="  my-3 py-7 flex gap-3 justify-center border-y-2 lg:justify-between items-center">
+      <div className="  my-3  py-2 lg:py-7 flex gap-3 justify-center border-y-2 lg:justify-between items-center">
         <p className="hidden lg:block">CenturyB4/House of centuryB4/StudioCB</p>
         <p>CenturyB4</p>
         <p className="hidden lg:block">All right reseved</p>
