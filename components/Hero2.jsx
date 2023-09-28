@@ -21,7 +21,7 @@ const Hero2 = ({ item }) => {
       </div>
       <div className=" px-7 order-1 lg:order-2 flex flex-col  justify-center items-start  gap-7  uppercase">
         <h1 className="text-2xl leading-8 lg:text-4xl text-orange-300">
-          An introduction to tomorrow
+          {item?.title}
         </h1>
         <p className="lg:pt-5 lg:text-sm">{item?.cte} </p>
         <Buttoncomponent text="Book a consultation" />
