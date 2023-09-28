@@ -64,7 +64,7 @@ const Heading = () => {
             </nav>
         </div>
         <header className=" pt-7 flex justify-between items-center px-3 lg:hidden ">
-          { ismenu?(<button onClick={HandleShow} className="relative  z-10">
+          { !ismenu?(<button onClick={HandleShow} className="relative  z-10">
             <div className="w-7 h-[1px] mb-1 bg-black"></div>
             <div className="w-6 h-[1px] mb-1 ml-1 bg-black"></div>
             <div className="w-5 h-[1px] mb-1 ml-2 bg-black"></div>
