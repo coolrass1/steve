@@ -10,6 +10,8 @@ import Section4 from '@/components/Section4'
 import Image from 'next/image'
 import {red, purple,green, picgreen, picorange,picpurple,picred} from '@/components/Data'
 import ContactButton from '@/components/ContactButton'
+import { Sigmar } from 'next/font/google'
+import Signature from '@/components/Signature'
 
 export default function Home() {
   return (
@@ -35,7 +37,8 @@ export default function Home() {
     <ContactButton/>
 {/* /**orange area */ }
 <Hero item={picorange}/>
-
+<Signature/>
+<hr/>
     {/* <Orangehero/> */}
     <Footer/>
     </main>
