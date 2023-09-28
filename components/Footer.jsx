@@ -18,9 +18,10 @@ const Footer = () => {
           />
           <Buttoncomponent/>
         </div>
-        <div className="px-7 flex flex-col gap-7 lg:flex-row lg:gap-7">
-          <div className="flex flex-col gap-3 ">
-            <h1>Links</h1>
+        <div className="px-7 flex flex-col gap-7 lg:flex-row lg:gap-14">
+          <div className="flex flex-col gap-3 text-sm ">
+            <h1 className="text-lg py-3">Links</h1>
+            <div className="flex flex-col gap-1">
             <p>Book a consultation</p>
             <p>House of CenturyB4</p>
             <p>CenturyB4.com</p>
@@ -28,16 +29,21 @@ const Footer = () => {
             <p>Contact</p>
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
+            </div>
+            
           </div>
           <div className="flex flex-col gap-3" >
-           <h1>FOLLOW</h1>
+           <h1 className="text-lg py-3">FOLLOW</h1>
+           <div className="flex flex-col gap-1 text-sm">
+
             <p>Linkedin</p>
             <p>Instagram</p>
             <p>Facebook</p>
+            </div>
           </div>
         </div>
       </main>
-      <div className="  my-3 py-14 flex gap-3 justify-center border-y-2 lg:justify-between items-center">
+      <div className="  my-3 py-7 flex gap-3 justify-center border-y-2 lg:justify-between items-center">
         <p className="hidden lg:block">CenturyB4/House of centuryB4/StudioCB</p>
         <p>CenturyB4</p>
         <p className="hidden lg:block">All right reseved</p>
